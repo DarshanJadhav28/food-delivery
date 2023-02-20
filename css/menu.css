@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.menu-grp {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add {
+    background-color: #cfcf00e3;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.setimage {
+    width: 100%;
+    height: 100%;
+}

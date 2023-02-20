@@ -1,0 +1,60 @@
+
+.container {
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+}
+img {
+    width: 90%;
+    height: auto;
+   
+}
+.box {
+    border: 1px solid black;
+}
+.box h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:aquamarine ;
+}
+.box p {
+    background-color: burlywood;
+    height: 10%;
+}
+.card {
+    width: 80%;
+    min-height: 30%;
+    padding: 7px;
+    margin: 20px;
+    flex-direction: row;
+    display: flex;
+
+}
+.menu img{
+    width: 100%;
+    height: auto;npm 
+    
+    
+} 
+.card-group {
+    padding: 40px;
+}
+.restaurants {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h4 {
+    margin-left: 30px;
+}
+.hotelmenu {
+    width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .restaurants {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
